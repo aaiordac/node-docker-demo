@@ -42,7 +42,7 @@ environment-vars:
     shared: Yes  # when true, the value is shared when the DevSpace is shared. When false, a value must be supplied by someone this DevSpace is shared with
     scope: run #
   - name: TWITTER_SECRET
-    value: HBgE2mc3LFdcg4j6djkk4uUDQaqDNB
+    value: changed-in-m13.8.3
     description: API key to use when accessing the Twitter API
     shared: No
   - name: COMPILER_ARGS
