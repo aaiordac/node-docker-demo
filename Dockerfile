@@ -21,6 +21,7 @@ COPY ./nodemon.json /src/nodemon.json
 
 ## Set environment to "development" by default
 ENV NODE_ENV development
+ENV MILESTONE 13.8.3
 
 ## Allows port 3000 to be publicly available
 EXPOSE 3000
