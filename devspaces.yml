@@ -15,8 +15,11 @@ icon-file: expressjslogo.png
 # If you need additional files when building you Dockerfile, such as some
 # application binaries that you Dockerfile references, list the glob paths to
 # include here. They are relative to this devspaces.yml file.
-docker-build-includes:
-  - **/*
+# Every path should be configured in a new line
+# **/*
+# other/path/*
+docker-build-includes: |
+  **/*
 
 ports:
   - protocol: http # can be udp|tcp|http
